@@ -1,0 +1,131 @@
+#head{
+  margin: auto;
+  width:50%;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 500%;
+  color: white;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+div#left{
+  background-color: white;
+  border-style: double;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width:20%;
+  border: 3px solid yellow;
+  text-align: center;
+  font-size: 250%;
+}
+
+a#left{
+  color: green;
+}
+
+a#left:hover{
+  color: red;
+}
+
+a#right{
+  color: red;
+}
+
+a#right:hover{
+  color: green;
+}
+
+body{
+  background-image: url("http://static.freepik.com/photos-libre/formules-mathematiques-vectorielles-version-manuscrite_34-51893.jpg")
+}
+
+.bord{
+  width: 10%;
+  display: table;
+  border-style: double;
+  border: 3px solid green;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: grey;
+}
+
+.t1{
+  width: 310px;
+  float:left;
+  border-style: double;
+  border: 3px solid green;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: grey;
+}
+
+.c1{
+  width: 400px;
+  float: left;
+}
+
+.c2{
+  width: 500px;
+  float: left;
+}
+
+.c3{
+  width: 400px;
+  float: left;
+}
+
+.c4{
+  width: 500px;
+  float: left;
+}
+
+.t2{
+  width: 325px;
+  float:right;
+  border-style: double;
+  border: 3px solid green;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: grey;
+}
+
+#cred{
+  color:white;
+  float:right;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.t3{
+  width: 268px;
+  float:left;
+  border-style: double;
+  border: 3px solid green;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: grey;
+}
+
+.t4{
+  width: 305px;
+  float:right;
+  border-style: double;
+  border: 3px solid green;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: grey;
+}
+
+#score{
+  background-color: white;
+  border-style: double;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width:20%;
+  border: 3px solid Blue;
+  text-align: center;
+  font-size: 250%;
+}
