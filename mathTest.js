@@ -1,5 +1,5 @@
 var correct = 0;
-
+var atmp = {"attempts": 0, "Lv1_correct": 0, "Lv2_correct": 0, "totalCorrect": 0};
 
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
@@ -28,13 +28,16 @@ function validateEZAnswer1(){
   if(document.getElementById('Eq1').value == 20){
     correct += 1;
     setCookie("numberCorrect", correct, 300);
+    atmp.Lv1_correct += 1;
   }
+  atmp.attempts += 1;
 }
 
 function validateEZAnswer2(){
   if(document.getElementById('Eq2').value == 6){
     correct += 1;
     setCookie("numberCorrect", correct, 300);
+    atmp.Lv1_correct += 1;
   }
 }
 
@@ -42,42 +45,54 @@ function validateEZAnswer3(){
   if(document.getElementById('Eq3').value == 2){
     correct += 1;
     setCookie("numberCorrect", correct, 300);
+    atmp.Lv1_correct += 1;
   }
+  atmp.attempts += 1;
 }
 
 function validateEZAnswer4(){
   if(document.getElementById('Eq4').value == 11){
     correct += 1;
     setCookie("numberCorrect", correct, 300);
+    atmp.Lv1_correct += 1;
   }
+  atmp.attempts += 1;
 }
 
 function validateHDAnswer1(){
   if(document.getElementById('Hq1').value == 6){
     correct += 1;
     setCookie("numberCorrect", correct, 300);
+    atmp.Lv2_correct += 1;
   }
+  atmp.attempts += 1;
 }
 
 function validateHDAnswer2(){
   if(document.getElementById('Hq2').value == 2){
     correct += 1;
     setCookie("numberCorrect", correct, 300);
+    atmp.Lv2_correct += 1;
   }
+  atmp.attempts += 1;
 }
 
 function validateHDAnswer3(){
   if(document.getElementById('Hq3').value == 144){
     correct += 1;
     setCookie("numberCorrect", correct, 300);
+    atmp.Lv2_correct += 1;
   }
+  atmp.attempts += 1;
 }
 
 function validateHDAnswer4(){
   if(document.getElementById('Hq4').value == 15){
     correct += 1;
     setCookie("numberCorrect", correct, 300);
+    atmp.Lv2_correct += 1;
   }
+  atmp.attempts += 1;
 }
 
 function getResults(){
